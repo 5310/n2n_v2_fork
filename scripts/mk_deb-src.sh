@@ -9,7 +9,7 @@
 # scripts/mk_deb-src.sh
 #
 # To submit to Launchpad PPA:
-# dput ppa:username/ppaname ./build_deb*.changes
+# dput ppa:username/ppaname ./build_deb/*.changes
 #
 # To build Debian packages directly, use scripts/mk_deb.sh instead.
 #
