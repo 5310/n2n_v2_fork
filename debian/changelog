@@ -1,3 +1,27 @@
+n2n (2.1.0-5~scio~trusty1) trusty; urgency=low
+
+  * Now made the mistake of not removing binaries from within the temporary build directory before archiving source.
+
+ -- Sayantan Chaudhuri <sayantan.chaudhuri@gmail.com>  Sat, 11 Oct 2014 14:21:00 +0530
+
+n2n (2.1.0-4~scio~trusty1) trusty; urgency=low
+
+  * Typoed PPA name this time. Look, this is my first time publishing PPAs.
+
+ -- Sayantan Chaudhuri <sayantan.chaudhuri@gmail.com>  Sat, 11 Oct 2014 14:16:19 +0530
+
+n2n (2.1.0-3~scio~trusty1) trusty; urgency=low
+
+  * Reuploading source package due to not initializing the PPA before doing so!
+
+ -- Sayantan Chaudhuri <sayantan.chaudhuri@gmail.com>  Sat, 11 Oct 2014 13:12:15 +0530
+
+n2n (2.1.0-2~scio~trusty1) trusty; urgency=low
+
+  * Preliminary PPA re-packaging.
+
+ -- Sayantan Chaudhuri <sayantan.chaudhuri@gmail.com>  Sat, 11 Oct 2014 13:12:15 +0530
+
 n2n (2.1.0-1) unstable; urgency=low
 
   * Split package in two.
@@ -24,4 +48,7 @@ n2n (1.2-1) unstable; urgency=low
   * Initial release
 
  -- Richard Andrews <andrews@ntop.org>  Thu, 10 Jul 2008 22:38:02 +1000
+
+
+
 
