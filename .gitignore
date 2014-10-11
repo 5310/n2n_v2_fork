@@ -1,5 +1,6 @@
 # Build files
 tmp
+n2n-*.tar.gz
 n2n-*.src.rpm
 build_deb
 
