@@ -1,3 +1,9 @@
+n2n (2.1.0-6~scio~trusty1) trusty; urgency=low
+
+  * Moved over to a forked repo ( https://github.com/5310/n2n_v2_fork ) with edited build metadata and scripts.
+
+ -- Sayantan Chaudhuri <sayantan.chaudhuri@gmail.com>  Sat, 11 Oct 2014 15:39:02 +0530
+
 n2n (2.1.0-5~scio~trusty1) trusty; urgency=low
 
   * Now made the mistake of not removing binaries from within the temporary build directory before archiving source.
