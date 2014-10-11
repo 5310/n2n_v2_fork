@@ -1,16 +1,10 @@
 #!/bin/bash
 
-# This script makes a SRPM - a source RPM file which can be built into the
-# appropriate distro specific RPM for any platform.
-#
-# To build the binary package:
-# rpm -i n2n-<ver>.src.rpm
-# rpmbuild -bb n2n.spec
-#
-# Look for the "Wrote:" line to see where the final RPM is.
+# This script makes source tarballs of this repository
+# that can then be used for other build-steps.
 #
 # To run this script cd to the n2n directory and run it as follows
-# scripts/mk_SRPMS.sh
+# scripts/mk_tar.sh
 #
 
 set -e

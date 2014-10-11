@@ -1,16 +1,15 @@
 #!/bin/bash
 
-# This script makes a SRPM - a source RPM file which can be built into the
-# appropriate distro specific RPM for any platform.
-#
-# To build the binary package:
-# rpm -i n2n-<ver>.src.rpm
-# rpmbuild -bb n2n.spec
-#
-# Look for the "Wrote:" line to see where the final RPM is.
+# This script makes a Debian binary packages that can then be installed or shared.
+# Of course, you'd need to make sure you have the build dependencies and GPG keys, etc.
 #
 # To run this script cd to the n2n directory and run it as follows
-# scripts/mk_SRPMS.sh
+# scripts/mk_deb.sh
+#
+# To install all the built packages:
+# sudo dpkg -i *.deb
+#
+# To build Debian source packages, use scripts/mk_deb-src.sh instead.
 #
 
 set -e
